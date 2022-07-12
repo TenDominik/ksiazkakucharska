@@ -10,7 +10,7 @@
         <a href="index.php"><button class="odnosnik">Strona głowna</button></a>
             <form action="" method="post" class="dodawanie">
                 Podaj nazwe przepisu który chcesz usunąć:<br>
-                <input type="text" name="nazwa" class="przycisk"><br>
+                <input type="text" name="nazwa" class="tekst"><br>
                 <input type="submit" value="Usuń przepis" class="odnosnik">
             </form>
         </div>

@@ -10,11 +10,11 @@
         <a href="index.php"><button class="odnosnik">Strona głowna</button></a>
             <form action="" method="post" class="dodawanie">
                 Podaj nazwe przepisu:<br>
-                <input type="text" name="nazwa" class="przycisk"><br>
+                <input type="text" name="nazwa" class="tekst"><br>
                 Podaj potrzebne składniki:<br>
-                <input type="text" name="skladniki" class="przycisk2"><br>
+                <input type="text" name="skladniki" class="tekst2"><br>
                 Podaj instrukcje do przepisu:<br>
-                <input type="text" name="instrukcja" class="przycisk2"><br>
+                <input type="text" name="instrukcja" class="tekst2"><br>
                 <input type="submit" value="Zapisz przepis" class="odnosnik">
             </form>
         </div>
