@@ -1,0 +1,57 @@
+.przepis{
+    border: 1px solid black;
+    width: 362px;
+    height: 331px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+body{
+    background-color: #dcd9d9;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.poleprzyciski{
+    width:100%;
+    text-align: center;
+}
+.przyciski{
+    display: inline-block;
+}
+.lista{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.wyszukiwarka{
+    width: 90%;
+    height: 30px;
+    text-align: center;
+}
+.ulozenie-przycisku{
+    text-align: center;
+    width: 100%;
+}
+.odnosnik{
+    width: 8%;
+    height: 36px;
+    margin: 8px;    
+}
+.dodawanie{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.przycisk{
+    width: 90%;
+    height: 30px;
+    text-align: center;
+}
+.przycisk2{
+    width: 90%;
+    height: 400px;
+    text-align: center;
+}
