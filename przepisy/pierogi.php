@@ -18,7 +18,7 @@
                 echo "$value<br>";
             }
             echo"<br><br>$row[2]";
-            echo"<br><br><img src='../$row[0].jpg'>"
+            echo"<br><br><img src='$row[0].jpg'>"
         ?>
     </body>
 </html>
