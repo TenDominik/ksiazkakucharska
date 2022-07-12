@@ -16,12 +16,13 @@
                 $c = pg_connect("user=postgres password=KxUcQ4mCJagbmusv host=db.qvgswpwdqgvglzzcykac.supabase.co port=5432 dbname=postgres");
                 $r = pg_query($c, "select * from przepisy");
                 while ($row = pg_fetch_array($r)) {
+                    $nazwa = strtolower($row[0]);
                     echo "
                         <li>
                             <div class='przepis'>
-                                $row[0]<br>
-                                <img src='przepisy/$row[0].jpg'><br>
-                                <a href='przepisy/$row[0].php'>Zobacz cały przepis</a>
+                                $nazwa<br>
+                                <img src='przepisy/$nazwa.jpg'><br>
+                                <a href='przepisy/$nazwa.php'>Zobacz cały przepis</a>
                             </div>
                         </li>
                     ";
