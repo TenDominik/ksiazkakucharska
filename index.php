@@ -23,7 +23,7 @@
                         ";
                         $nazwa = strtolower($row[0]);
                         echo "
-                                <img src='przepisy/$nazwa.jpg'><br>
+                                <img src='https://przepisykuchenne.herokuapp.com/przepisy/$nazwa.jpg'><br>
                                 <a href='przepisy/$nazwa.php'>Zobacz cały przepis</a>
                             </div>
                         </li>
