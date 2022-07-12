@@ -20,7 +20,7 @@
                         <li>
                             <div class='przepis'>
                                 $row[0]<br>
-                                <img src='$row[0].jpg'><br>
+                                <img src='img/$row[0].jpg'><br>
                                 <a href='przepisy/$row[0].php'>Zobacz cały przepis</a>
                             </div>
                         </li>
